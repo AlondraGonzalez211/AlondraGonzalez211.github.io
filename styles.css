@@ -3,7 +3,6 @@
     --black: #000;
     --white: #fff;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,4 +15,32 @@
     padding: 0.5rem calc((100vw - 1200px)/2);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar_logo{
+    color: var(--white);
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;   
+}
+
+.navbar_link{
+    color: var(--white);
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.navbar_link:hover{
+color: var(--red);
+}
+
+@media screen and (max-width: 769px) {
+    .navbar_link{
+        display: none;
+    }
+    /* .nav_menu{
+
+    } */
 }
