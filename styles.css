@@ -146,3 +146,51 @@ color: var(--red);
 }
 
 /* Services Section */
+.services{
+    padding: 8rem calc((100vw - 1200px) /2);
+}
+
+.services_container{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    padding: 1rem;
+}
+
+.services_img{
+    width: 100%;
+    height: 100%;
+}
+
+.topline{
+    color: var(--red);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.services_heading{
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.services_features{
+    list-style: none;
+}
+
+.services_feature{
+    margin-bottom: 1.5rem;
+    font-size: clamp(1rem, 5vw, 1.2rem);
+}
+
+.fa-check-circle{
+    margin-right: 0.5rem;
+    color: var(--red);
+}
+
+@media screen and (max-width: 768px){
+    .services_container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Login section */
