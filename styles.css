@@ -101,7 +101,7 @@ color: var(--red);
 /* Hero Section */
 .hero{
     background: linear-gradient(to right, rgba(0, 0,0 ,0.4), rgba(0,0,0,0.1)),
-    url('./images/DENSO_CR_Lidar_Feature-Image.jpg');
+    url('./images/b1dcf5c-lidaroutput_1.gif');
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -261,4 +261,115 @@ color: var(--red);
     }
 }
 
-/* team section */
+/* about section */
+.about{
+    align-items: center;
+}
+
+.about_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto, 350px);
+}
+
+.about_card{
+    margin: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about_text{
+    padding: 1rem;
+}
+
+.about_text h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.about_desc{
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    line-height: 1.4;
+}
+
+.about_card p{
+    position: absolute;
+    bottom: 30px;
+    color: var(--white);
+    left: 25px;
+    font-size: 3rem;
+}
+
+.about_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text_text:nth-child(1){
+    grid-row: 1 /3;
+    grid-column: 2 /3;
+}
+
+.about_text:nth-child(2){
+    grid-row: 5 /6;
+    grid-column: 1 /2;
+}
+
+.about_card:nth-child(3){
+    grid-row: 1 /3;
+    grid-column: 1 /2;
+}
+
+.about_card:nth-child(4){
+    grid-row: 2 /4;
+    grid-column: 2 /3;
+}
+
+.about_card:nth-child(5){
+    grid-row: 3 /5;
+    grid-column: 1 /2;
+}
+
+.about_card:nth-child(6){
+    grid-row: 4 /6;
+    grid-column: 2 /3;
+}
+
+@media screen and (max-width: 768px) {
+    .about_wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .text_text:nth-child(1){
+        grid-row: 1 /2;
+        grid-column: 1 /2;
+    }
+    
+    .about_text:nth-child(2){
+        grid-row: 6 /7;
+        grid-column: 1 /2;
+    }
+    
+    .about_card:nth-child(3){
+        grid-row: 3 /4;
+        grid-column: 1 /2;
+    }
+    
+    .about_card:nth-child(4){
+        grid-row: 4 /5;
+        grid-column: 1 /2;
+    }
+    
+    .about_card:nth-child(5){
+        grid-row: 5 /6;
+        grid-column: 1 /2;
+    }
+    
+    .about_card:nth-child(6){
+        grid-row: 2 /3;
+        grid-column: 1 /2;
+    }
+}
+
+/* email section */
