@@ -306,7 +306,7 @@ color: var(--red);
     border-radius: 10px;
 }
 
-.text_text:nth-child(1){
+.about_text:nth-child(4){
     grid-row: 1 /3;
     grid-column: 2 /3;
 }
@@ -321,7 +321,7 @@ color: var(--red);
     grid-column: 1 /2;
 }
 
-.about_card:nth-child(4){
+.about_card:nth-child(2){
     grid-row: 2 /4;
     grid-column: 2 /3;
 }
@@ -341,7 +341,7 @@ color: var(--red);
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    .text_text:nth-child(1){
+    .about_text:nth-child(1){
         grid-row: 1 /2;
         grid-column: 1 /2;
     }
@@ -373,3 +373,81 @@ color: var(--red);
 }
 
 /* email section */
+.email {
+    background: linear-gradient(
+    180deg, 
+    rgba(0, 0, 0, 0.6)0%, 
+    rgba(0, 0, 0, 0.9)35%, 
+    rgba(0, 0, 0, 0.1)100%),
+    url('./images/herosection.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 5rem calc((100vw - 1300px) /2);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email_content h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: clamp(1rem, 5vw, 3rem);
+    padding: 0 1rem;
+}
+
+.email_content p{
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    z-index: 10;
+}
+
+.form_wrap input{
+    padding: 1rem 1.5rem;
+    outline: none;
+    width: 350px;
+    height: 50px;
+    border: none;
+    margin-right: 1rem;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px){
+    .form_wrap{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .form_wrap input{
+        margin-bottom: 1rem;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    button{
+        width: 100%;
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    button{
+        width: 100%;
+        min-width: 250px;
+    }
+}
+
+/* footer section */
