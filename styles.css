@@ -205,34 +205,34 @@ color: var(--red);
         grid-template-columns: 1fr;
     }
 }
-/* Tier/login section */
-.Tier{
+/* phase section */
+.phase{
     background: var(--black);
     color: var(--white);
     padding: 6rem calc((100vw - 1100px)/2);
     text-align: center;
 }
 
-.Tier h1{
+.phase h1{
     margin-bottom: 1rem;
     font-size: clamp(2rem, 5vw, 3rem);
     padding: 0 1rem;
 }
 
-.Tier_desc{
+.phase_desc{
     margin-bottom: 3rem;
     font-size: clamp(1rem, 3vw, 1.5rem);
     padding: 1rem;
 }
 
-.Tier_wrapper{
+.phase_wrapper{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 1rem;
 }
 
-.Tier_card{
+.phase_card{
     padding: 2rem;
     min-height: 450px;
     width: 325px;
@@ -244,11 +244,11 @@ color: var(--red);
     justify-content: space-between;
 }
 
-.Tier_perks{
+.phase_info{
     min-height: 150px;
 }
 
-.Tier_card p{
+.phase_card p{
     margin-bottom: 1rem;
 }
 
@@ -258,17 +258,17 @@ color: var(--red);
     color: var(--red);
 }
 
-.Tier_card h3{
+.phase_card h3{
     font-size: clamp(1rem, 5vw, 2rem);
     margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1100px) {
-    .Tier_wrapper{
+    .phase_wrapper{
         flex-direction: column;
         align-items: center;
     }
-    .Tier_card{
+    .phase_card{
         width: 90%;
         margin-bottom: 2rem;
     }
