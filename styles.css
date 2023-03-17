@@ -210,6 +210,7 @@ color: var(--red);
 .demo-vid
 {
     margin:auto;
+    text-align:center;
 
 }
 /* phase section */
@@ -673,9 +674,11 @@ ul{
 }
 .textAdj-1{
     padding-right: 10%;
+    width:50%;
 }
 .textAdj-2{
     padding-left: 10%;
+    width:50%;
 }
 .github_logo{
     width: 10%;
