@@ -415,6 +415,10 @@ color: var(--red);
 {
     margin:2em;
 }
+.intro h1
+{
+   color: #f9032f;
+}
 .technologies
 {
     padding:2em;
@@ -466,10 +470,6 @@ color: var(--red);
     width:30%;
 }
 
-.gallery img
-{
-    width:100%;
-}
 
 /* footer section */
 a:visited { 
