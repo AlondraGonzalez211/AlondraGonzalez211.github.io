@@ -206,6 +206,12 @@ color: var(--red);
         grid-template-columns: 1fr;
     }
 }
+
+.demo-vid
+{
+    margin:auto;
+
+}
 /* phase section */
 .phase{
     background: var(--black);
