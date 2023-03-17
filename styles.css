@@ -386,3 +386,24 @@ color: var(--red);
 }
 
 /* footer section */
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+}
+
+.footer, .footer_image{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    line-height: 1.5;
+}
+
+.footer_col{
+    width: 25%;
+    padding: 0 15 px;
+}
+
+.footer_col h4{
+
+}
