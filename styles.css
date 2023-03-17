@@ -438,7 +438,7 @@ color: var(--red);
 }
 .technologies td, th {
   border: 1px solid #dddddd;
-  text-align: left justify;
+  text-align: center;
   padding: 8px;
 }
 #tech-content
