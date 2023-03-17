@@ -383,6 +383,49 @@ color: var(--red);
         grid-row: 2 /3;
         grid-column: 1 /2;
     }
+
+}
+
+.services-container
+{
+    line-height:1.5em;
+}
+.services-container
+{
+    line-height:2em;
+}
+.intro-body
+{
+    background-color: #000;
+    color:#fff;
+    display:flex;
+    padding:3em;
+}
+.intro
+{
+    margin:2em;
+}
+.technologies
+{
+    padding:2em;
+}
+.technologies table
+{
+    padding:2em;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technologies table img
+{
+    height:50px;
+}
+.technologies td, th {
+  border: 1px solid #dddddd;
+  text-align: left justify;
+  padding: 8px;
 }
 
 /* footer section */
