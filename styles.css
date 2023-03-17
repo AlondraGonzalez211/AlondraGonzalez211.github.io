@@ -427,6 +427,15 @@ color: var(--red);
   text-align: left justify;
   padding: 8px;
 }
+#tech-content
+{
+    color:#dddddd;
+    text-align:right;
+    width:40%;
+    padding:2em;
+    background: linear-gradient(to right, rgba(0, 0,0 ,0.4), rgba(0,0,0,0.1)),
+    url('https://sunbeamprods.com/wp-content/uploads/2017/08/futuristic-technology-background-loop-abstract-line-and-polygon-animation-4k-seamless-loop-computer-generated_vdpc3ldcx__F0000.png');
+}
 .skills
 {
     color:#dddddd;
