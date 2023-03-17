@@ -559,3 +559,27 @@ ul{
     width: 100%;
 }
 }
+.members{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.membersIMG{
+    width: 50%;
+    height: auto;
+    padding: 10%;
+}
+.textAdj-1{
+    padding-right: 10%;
+}
+.textAdj-2{
+    padding-left: 10%;
+}
+.github_logo{
+    width: 10%;
+}
