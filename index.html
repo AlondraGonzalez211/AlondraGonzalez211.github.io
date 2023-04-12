@@ -32,30 +32,30 @@
             <a href="services.html" class="button">Learn more</a>       
         </div>
     </div>
+    <img src="images/home-e2e-bucket1.png" alt="ML" class="services_img">
     <!-- services section -->
     <div class="services">
         <div class="services_container">
             <div>
                 <p class="topline">Features</p>
-                <h1 class="services_heading">What we offer</h1>
+                <h1 style="color: white;"  class="services_heading">What we offer</h1>
                 <div class="services_features">
-                    <p class="services_feature">
+                    <p style="color: whitesmoke;" class="services_feature">
                         <i class="fas fa-check-circle"></i>Real-Time data streaming</p>
-                        <p class="services_feature">
+                        <p style="color: whitesmoke;" class="services_feature">
                         <i class="fas fa-check-circle"></i>Data Statistics</p>
-                        <p class="services_feature">
+                        <p style="color: whitesmoke;"  class="services_feature">
                             <i class="fas fa-check-circle"></i>2D/3D data modeling</p>
-                            <p class="services_feature">
+                            <p style="color: whitesmoke;"  class="services_feature">
                                 <i class="fas fa-check-circle"></i>Machine Learning</p>
-                                <p class="services_feature">
+                                <p style="color: whitesmoke;"  class="services_feature">
                                     <i class="fas fa-check-circle"></i>Traffic Classification tools</p>
-                                    <p class="services_feature">
+                                    <p style="color: whitesmoke;" class="services_feature">
                                         <i class="fas fa-check-circle"></i>Data Labeling</p>
                     </div>
             </div>
         </div>
         <!-- phases info section -->
-        <img src="images/home-e2e-bucket1.png" alt="ML" class="services_img">
     </div>
     <div class = "gallery">
         <h1>Project Screenshots</h2>
@@ -75,7 +75,7 @@
               <img class="demo cursor" src="images/proj_screenshots/tiny-yolov7-accuracy.png" style="width:100%" onclick="currentSlide(4)" alt="Performance of Tiny-Yolov7">
             </div>
             <div class="column">
-              <img class="demo cursor" src="images/proj_screenshots/charts-poc.png" style="width:100%" onclick="currentSlide(5)" alt="Real-time data statistics design concept">
+              <img class="demo cursor" src="images/proj_screenshots/charts-poc.jpg" style="width:100%" onclick="currentSlide(5)" alt="Real-time data statistics design concept">
             </div>    
             <div class="column">
                 <img class="demo cursor" src="images/proj_screenshots/camera-setup.png" style="width:100%" onclick="currentSlide(6)" alt="Camera configuration">
@@ -106,7 +106,7 @@
         
           <div class="mySlides">
             <div class="numbertext">5 / 6</div>
-            <img src="images/proj_screenshots/charts-poc.png" style="width:100%">
+            <img src="images/proj_screenshots/charts-poc.jpg" style="width:100%">
           </div>
           <div class="mySlides">
             <div class="numbertext">6 / 6</div>
@@ -120,8 +120,7 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/kaEnH91-Elk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="phase">
-        <h1>Our Mission</h1>
-        <p><div class="phase_desc">write something</p>
+        <h1>Project Phases</h1>
         <div class="phase_wrapper">
             <div class="phase_card">
                 <div class="phase_title">
@@ -129,12 +128,12 @@
                     <h3>Phase 1</h3>
                 </div>
                 <div class="phase_info">
-                    <p>Data collection is done to get data used to train 3D/2D models to include bounding boxes in the frames, 
-                        applying for funding, meeting with stakeholders, and begin learning more about the different programs/equipment 
-                        to help with our project.
+                    <p> Data collection is done using the Intel realsense camera for 2D data  
+                        and Velodyne ultra-puck LiDAR camera for 3D data. After collecting data, we 
+                        analyze it, clean, and label it for use in our web application.
                     </p>
                 </div>
-                <a href="/" class="button">More info</a>
+                <a href="/" class="button">Details</a>
                 <!-- More info should link to services page -->
             </div>
             <div class="phase_card">
@@ -143,12 +142,12 @@
                     <h3>Phase 2</h3>
                 </div>
                 <div class="phase_info">
-                    <p>Training the machine learning model, begin development of a web platform to host the services we want to 
-                        provide. Adding important functionality to different areas of the project mostly focused on AWS live streaming
-                        services to display on the site.
+                    <p>Machine learning models for both 2D and 3D data are trained with labeled data 
+                        in order for the models to track and label vehicles in real-time. Data will stream 
+                        through AWS clients to use in the web application.
                     </p>
                 </div>
-                <a href="/" class="button">More info</a>
+                <a href="/" class="button">Details</a>
                 <!-- More info should link to services page -->
             </div>
             <div class="phase_card">
@@ -157,39 +156,70 @@
                     <h3>Phase 3</h3>
                 </div>
                 <div class="phase_info">
-                    <p>Development of website will be finished, data collection will conclude after there are enough labeling frames
-                        to train the machine learning models. There will be a live-streaming capability to the website, and the capability 
-                        to add camera configurations on the site.
+                    <p>Website displays labeled real-time stream with graphs based on the data from 2D/3D Machine learning models. 
+                        Registered users have access to historical data + camera configurations.  
                     </p>
                 </div>
-                <a href="/" class="button">More info</a>
+                <a href="/" class="button">Details</a>
                 <!-- More info should link to services page -->
             </div>
         </div>
     </div>
-    <!-- footer section -->
-    <br><br>
-    <div class="footer">
-            <ul><u>
-                <br><br>
-                <a class="footer_link" href="https://www.csun.edu/universal-design-center">Accessibility</a>
-                <a class="footer_link" href="https://www.csun.edu/eqd/title-ix">Title IX</a>
-                <a class="footer_link" href="https://www.csun.edu/sites/default/files/900-12.pdf">Terms & Conditions</a>
-                <a class="footer_link" href="https://www.csun.edu/it/privacy">Privacy Policy</a>
-                <a class="footer_link" href="https://www.csun.edu/sites/default/files/clery-report.pdf">Annual Secuity Report (CLERY)</a>
-                <a class="footer_link" href="https://www.csun.edu/sites/default/files/Annual-Fire-Safety-Report.pdf">Annual Fire Safety Report</a>
-                <a class="footer_link" href="https://www.csun.edu/sites/default/files/annual-campus-safety-plan.pdf">Campus Safety Report</a>
-                <a class="footer_link" href="https://www.csun.edu/it/document-viewers">Document Reader</a>
-                <a class="footer_link" href="https://www.calstate.edu/">CSU system</a>
-                <a class="socials" href="https://www.facebook.com/calstatenorthridge"><i class="fa-brands fa-facebook"></i></a>
-                <a class="socials" href="https://www.instagram.com/csun_edu/"><i class="fa-brands fa-instagram"></i></a>
-                <a class="socials" href="https://twitter.com/csunorthridge"><i class="fa-brands fa-twitter"></i></a>
-                <a class="socials" href="https://www.youtube.com/user/CalStateNorthridge"><i class="fa-brands fa-youtube"></i></a>
-                <a class="socials" href="https://www.linkedin.com/school/california-state-university-northridge/"><i class="fa-brands fa-linkedin-in"></i></a>
-            </u></ul>
-            <br><p>© 2023 California State University Northridge</p>
-            <img class="footer_image" src="images/csun.webp" alt="CSUN logo", height="90px", width="260px">
+
+    
+    <!-- About section -->
+    <div class="about">
+        <div class="about_wrapper">
+            <div class="about_text">
+                <p class="topline">Real-Time Traffic Monitoring Project</p>
+                <h1>Our 491 team!</h1>
+                <p class="about_desc">
+                    Our team has spent an entire year working on creating a platform that is able
+                    to provide real-time data streaming and statistics for traffic data. From machine
+                    learning model training, data collection, front/backend development, and data analysis,
+                    our team was able to create a way to add data sources like 2D/3D cameras and couple them
+                    with machine learning models to create a way to classify and analyze traffic efficiently.
+            </div>
+            <div class="about_text">
+                <p class="topline">Special Thanks</p>
+                <h1>Our Collaborators</h1>
+                <p class="about_desc">
+                    Professor Jiang(Computer Science)<br>
+                    Dr. Li(Manufacturing Systems/Engineering)<br>
+                    Dr. Jia(Civil Engineering) <br>
+                    Alexander Rose(M.S. candidate)<br>
+                    Robin Rosculete(B.S. candidate)<br>
+                    Jose Flores(B.S. candidate)<br>
+                    Andres Mercado(B.S candidate)<br>
+                    <br> With their help we were able to get more insight to different angles to implementing
+                    the project, and any kind of feedback we received has been very useful to moving this 
+                    project forward.
+            </div>
+            <div class="about_card">
+                <p>Icess Nisce</p>
+                <img src="./images/Icess.jpg" alt="Icess!" class="about_img" />
+            </div>
+            <div class="about_card">
+                <p>Matthew Davis</p>
+                <img src="./images/Matthew2.jpg" alt="Matthew!" class="about_img"/>
+            </div>
+            <div class="about_card">
+                <p>Alondra Gonzalez</p>
+                <img src="./images/alondra.jpg" alt="Alondra!" class="about_img"/>
+            </div>
+            <div class="about_card">
+                <p>Brian Uribe</p>
+                <img src="./images/Brian2.jpg" alt="Brian!" class="about_img"/>
+            </div>
+            <div class="about_card">
+                <p>Javier Carranza</p>
+                <img src="images/javier3.jpg" alt="Javier!" class="about_img"/>
+            </div>
         </div>
+    </div>
+    <!-- footer section -->
+    
+
     <!-- JS file -->
     <script src="app.js"></script>
     <script src="slideshow.js"></script>

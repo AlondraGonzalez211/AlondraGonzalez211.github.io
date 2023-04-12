@@ -12,6 +12,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .navbar{
     background: var(--black);
     height: 60px;
@@ -168,11 +169,17 @@ color: var(--red);
     display: grid;
     grid-template-columns: 1fr, 1fr;
     padding: 1rem;
+    position: absolute;
+    top: 890px;
+    left: 130px;
+
 }
 
 .services_img{
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(black,#111212, #414242,#111212, #414242, white);
+
 }
 
 .topline{
@@ -592,6 +599,7 @@ ul{
 	padding:0;
 	box-sizing: border-box;
 	background-color: black;
+    
     padding: 50px 0;
     margin-top: 1px;
     margin-left: 80px;
@@ -689,24 +697,6 @@ a:visited {
     text-decoration: none; 
     color: white; 
 }
-.footer{
-    height: 60px;
-    padding: 0.5rem calc((100vw - 1200px)/2);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.footer_link{
-    color: var(--white);
-    text-decoration: none;
-    padding: 0rem 1rem;
-}
-
-.footer_link:hover{
-color: var(--red);
-}
 
 .socials:hover{
     color: var(--red);
@@ -726,54 +716,12 @@ color: var(--red);
       }
 }
 
-.footer_image{
-    margin-left: 10px;
-}
-
-/* footer2 section */
-a.footer2_link:visited { 
-    text-decoration: none; 
-    color: black; 
-}
-.footer2{
-    height: 60px;
-    padding: 0.5rem calc((100vw - 1200px)/2);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.footer2_link{
-    color: var(--black);
-    text-decoration: none;
-    padding: 0rem 1rem;
-}
-
-.footer2_link:hover{
-color: var(--red);
-}
-
 .socials2:hover{
     color: var(--red);
 }
 .socials2:visited{
     text-decoration: none;
     color: black;
-}
-
-@media screen and (max-width: 768px) {
-    @media(max-width: 767px){
-        .footer2_link{
-          width: 50%;
-          margin-bottom: 30px;
-      }
-      }
-      @media(max-width: 574px){
-        .footer2_link{
-          width: 100%;
-      }
-      }
 }
 .members{
     background-color: snow;
