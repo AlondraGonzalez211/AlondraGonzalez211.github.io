@@ -103,7 +103,7 @@ color: var(--red);
 /* Hero Section */
 .hero{
     background: linear-gradient(to right, rgba(0, 0,0 ,0.4), rgba(0,0,0,0.1)),
-    url('./images/b1dcf5c-lidaroutput_1.gif');
+    url('./images/hello.gif');
     height: 100vh;
     background-position: center;
     background-size: cover;
