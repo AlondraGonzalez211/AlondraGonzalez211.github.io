@@ -678,11 +678,24 @@ ul{
     align-items: center;
     justify-content: center
 }
+.team{
+  padding-top: 1%;
+  display: inline-block;
+  text-align:center;
+}
+.team p
+{
+  text-align:center;
+}
 
 .membersIMG{
     width: 50%;
     height: auto;
     padding: 10%;
+}
+.teamIMG{
+  width: 60%;
+  height: auto;
 }
 .textAdj-1{
     padding-right: 10%;
