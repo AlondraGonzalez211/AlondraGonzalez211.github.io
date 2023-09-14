@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="lab3.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <!-- navigation links -->
+    <nav>
+        <table class="nav_table">
+        <tr>
+            <th class="na"><a class="ok" href="about-me.html">About me</a></th>
+            <th class="na"><a class="ok" href="form.html">Post</a></th>
+            <th class="na"><a class="ok" href="blog.html">Blog</a></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="hello"></th>
+            <th class="na"><a class="ok" href="index.html">Login/Register</a></th>
+        </tr>
+        </table>
+    </nav>
+    <br>
+    <!-- new text and label -->
+    <!-- ask if this is ok/right -->
+    <div id="post-div">
+        <label class="label-post" for="post">Post: </label>
+        <br>
+        <textarea name="post" id="post" cols="100" rows="5"></textarea>
+        <p id="post-check"></p>
+    </div>
+    <!-- Form -->
+    <form action="" id="myform">
+    <div>
+        <!-- task name -->
+            <br><label for="task_name"><b>Task Name</b>
+                <p class="para">No mumeric input please! First Letter capitalized</p>
+            </label>
+            <input class="task-n" type="text" placeholder="Enter a name" name="task_name" id="task_name">
+            <p id="task_msg"></p>
+        <!-- task date -->
+            <br><label for="task_Date"><b>Task Date</b> 
+                <p class="para">Enter any of the acceptable date types as follows:</p>
+                <td>* MM/DD/YYYY <br>* MM\DD\YYYY <br>* MM-DD-YYYY <br>* Month Day, Year<br><br></td>
+            </label>
+            <input class="task-d" type="text" placeholder="Enter a Date" name="task_date" id="task_date">
+            <p id="task_msgs"></p>
+        </div>
+    <!-- Calculator -->
+    <br><div class="calculator">
+        <!-- display results -->
+        <br><input class="calc-d" type="text" name="display" id="display_result" value="">
+        <!-- number buttons -->
+        <!-- you can add a table to change the layout of the buttons -->
+        <!-- clear button -->
+        <div class="calc">
+            <!-- clear button -->
+            <input type="button" value="C" id="clear">
+            <!-- addition button -->
+            <input class="add" type="button" value="+" id="addition">
+            <!-- number button -->
+            <br>
+            <input type="button" value="1" id="button1">
+            <input type="button" value="2" id="button2">
+            <input type="button" value="3" id="button3">
+            <!-- subtration button -->
+            <input class="sub" type="button" value="-" id="subtraction">
+            <!-- number buttons -->
+            <br><input type="button" value="4" id="button4">
+            <input type="button" value="5" id="button5">
+            <input type="button" value="6" id="button6">
+            <!-- division button -->
+            <input class="div" type="button" value="/" id="division">
+            <!-- number buttons -->
+            <br><input type="button" value="7" id="button7">
+            <input type="button" value="8" id="button8">
+            <input type="button" value="9" id="button9">
+            <!-- multiplication button -->
+            <input class="mul" type="button" value="*" id="multiplication">
+            <!-- number button -->
+            <br><input type="button" value="0" id="button0">
+        <!-- eqal button -->
+            <input class="equ" type="button" value="=" id="equal">
+        </div>
+        <!-- save button transfers the calculator result to hours 
+        worked this week -->
+        <div id="save_button">
+            <br><input class="button" type="button" value="Save">
+            <span id="span_hwtw"><label for="Hours worked this week"></label></span>
+        </div>
+        <!-- submit button -->
+        <div id="submit_button">
+            <br> <input class="button" type="button" value="Submit">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
